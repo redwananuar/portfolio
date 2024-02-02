@@ -1,0 +1,47 @@
+/* general CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* hero CSS */
+.hero {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.img {
+    width: 370px;
+    height: 500px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 20vh;
+
+}
+
+.hero h4 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* skills CSS */
+
+.skills {
+
+background-color: azure;
+background-size: cover;
+height: 50vh;
+
+}
+
+/* projects CSS */
+.projects {
+    background-color: aliceblue;
+    height: 100vh;
+
+}
