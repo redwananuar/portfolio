@@ -5,11 +5,40 @@
     box-sizing: border-box;
 }
 
+/* navbar CSS */
+
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nav {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color:grey ;
+}
+
+
+
+
+
+
+
+
+
+
 /* hero CSS */
 .hero {
     background-color: white;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
 }
 
 .img {
@@ -19,29 +48,33 @@
 
 .hero h1 {
     font-size: 4rem;
-    text-align: center;
     margin-top: 20vh;
 
 }
 
 .hero h4 {
     font-size: 2rem;
-    text-align: center;
 }
 
-/* skills CSS */
-
-.skills {
-
-background-color: azure;
-background-size: cover;
-height: 50vh;
-
-}
 
 /* projects CSS */
 .projects {
-    background-color: aliceblue;
-    height: 100vh;
+    background-color: #f7f7f7;
+    background-size: cover;
+    height: 80vh;
 
+}
+
+/* contact me CSS */
+
+.contact h6 {
+    margin-bottom: 3rem;
+}
+
+.form {
+
+}
+
+.address {
+    background-color: #f7f7f7;
 }
